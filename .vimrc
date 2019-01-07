@@ -13,6 +13,9 @@
   "highlight NonText guibg=#000000
   "highlight Folded  guibg=#0A0A0A guifg=#9090D0
  
+set autoindent
+set cindent
+set smartindent
 " Backspace deletes like most programs in insert mode
 set backspace=2
 " Show the cursor position all the time
@@ -27,8 +30,9 @@ filetype plugin indent on
 " Softtabs, 2 spaces
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4
 set shiftround
-set expandtab
+set noexpandtab
 
 " Display extra whitespace
 "set list listchars=tab:»·,trail:·
